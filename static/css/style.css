@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'samim';
+    src: url(../fonts/Samim.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'samim';
+    src: url(../fonts/Samim-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'sahel';
+    src: url(../fonts/Sahel-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url(../fonts/Vazir-FD-WOL.ttf) format("truetype");
+}
+
+body {
+    font-family: 'samim' !important;
+    direction: rtl !important;
+    background-color: #ECF0F1 !important;
+}
+
+footer {
+    margin-bottom: 50px !important;
+}
+
+hr {
+    border-top-color: #BDC3C7 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'sahel' !important;
+}
+
+h1 {
+    color: #34495E !important;
+}
+
+h2 {
+    font-size: 20px !important;
+    color: #2980B9 !important;
+}
+
+h3 {
+    font-size: 16px !important;
+    font-weight: 300;
+    color: #3498DB !important;
+}
